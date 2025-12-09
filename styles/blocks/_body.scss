@@ -1,0 +1,375 @@
+.container-body {
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    justify-content: space-between;
+    display: flex;
+
+    .body-left {
+        display: flex;
+        width: 301px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 19px;
+        flex-shrink: 0;
+
+        .history-sport {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+            width: 100%;
+            border-radius: 14px;
+
+            background: #FFF;
+
+
+
+            .body-history {
+                display: flex;
+                padding: 14px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: var(--item-spacing-s, 16px);
+                align-self: stretch;
+                border-radius: 0 0 14px 14px;
+                background: #FFF;
+
+                .card-history {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+                    align-self: stretch;
+
+                    .icon-card {
+                        width: 24px;
+                        height: 23.796px;
+                    }
+
+                    .title-history {
+                        color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+                        font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 145%;
+                        /* 20.3px */
+                        letter-spacing: -0.14px;
+                    }
+                }
+            }
+
+        }
+
+        .img-left-first {
+            width: 300px;
+            height: 600px;
+            aspect-ratio: 1/2;
+        }
+
+
+    }
+
+
+
+    .body-right {
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+        flex-shrink: 0;
+
+
+
+
+
+        .img-first-right {
+            width: 350px;
+            height: 700px;
+            aspect-ratio: 1/2;
+        }
+
+
+
+
+    }
+
+
+
+
+}
+
+.header-news {
+    display: flex;
+    padding: 10px 14px;
+
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 14px 14px 0 0;
+    background: #0056FF;
+
+    .icon-header-news {
+        width: 30.721px;
+        height: 30.46px;
+        flex-shrink: 0;
+    }
+
+    .title-header-news {
+        width: 119.199px;
+        height: 13.673px;
+        flex-shrink: 0;
+        fill: rgba(255, 255, 255, 0.88);
+
+
+    }
+}
+
+
+
+
+.icon-comment {
+    display: flex;
+    width: 14px;
+    height: 14px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
+
+.icon-share {
+    display: flex;
+    width: 14px;
+    height: 14px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
+
+.author-name {
+    color: #666;
+    font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--line-height-15, 15px);
+    /* 125% */
+}
+
+.author-time {
+    color: #52524F;
+    font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--line-height-15, 15px);
+    /* 136.364% */
+}
+
+.line {
+    height: 1px;
+    align-self: stretch;
+    background: #F0F0EE;
+}
+
+.bt-readmore {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #F6F6F6;
+    align-self: stretch;
+    color: #121212;
+    font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--line-height-15, 15px);
+    /* 125% */
+}
+
+.clame-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.hotnews-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    border-radius: 14px;
+
+    background: #FFF;
+
+
+
+
+    .body-hotnews {
+        align-items: flex-start;
+        gap: var(--item-spacing-s, 16px);
+        background: #fff;
+        border-radius: 0 0 14px 14px;
+        flex-direction: column;
+        align-self: stretch;
+        padding: 14px;
+        display: flex;
+
+        .card-hotnews {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            align-self: stretch;
+            box-sizing: border-box;
+
+            .icon-card-hotnews {
+                width: 4px;
+                height: 4px;
+                fill: var(--color-black-solid, #000);
+                opacity: var(--opacity-100, 1);
+            }
+
+            .title-hotnews {
+                color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+                font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+
+
+                font-size: 14px;
+                font-style: normal;
+                font-weight: var(--font-weight-500, 500);
+                line-height: 145%;
+                /* 20.3px */
+            }
+        }
+
+    }
+}
+
+.cl-black {
+    color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+
+}
+
+.no-border {
+    border-bottom: none !important;
+}
+
+.card-title {
+    background: #fff;
+    border-bottom: 1px solid #f0f0ee;
+    border-radius: 14px 14px 0 0;
+    flex: 1 0 0;
+    align-self: stretch;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+    .rectangle-header {
+        width: 4px;
+        height: 24px;
+        position: absolute;
+        top: 11px;
+        border-radius: 0 6px 6px 0;
+        background: #B72424;
+        left: 0px;
+    }
+
+    .title-header {
+        color: #B72424;
+        font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 145%;
+        /* 26.1px */
+        letter-spacing: -0.27px;
+    }
+}
+
+.arrow {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.body-card-small {
+    align-items: flex-start;
+    gap: var(--item-spacing-s, 16px);
+    background: #fff;
+    border-radius: 0 0 14px 14px;
+    flex-direction: column;
+    width: 100%;
+    padding: 14px;
+    display: flex;
+}
+
+.card-small {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.topic-card-small {
+    color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+    font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+    letter-spacing: -.14px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+}
+
+.title-card-small {
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: flex-start;
+    display: flex;
+
+}
+
+.author-card-small {
+    align-items: center;
+    gap: 7px;
+    width: 158px;
+    display: flex;
+}
+
+.icon-card-small {
+    align-items: center;
+    gap: 14px;
+    display: flex;
+}
+
+.img-card-small {
+    aspect-ratio: 1;
+    width: 80px;
+    height: 80px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.content-card-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}

@@ -1,0 +1,32 @@
+@use "./blocks/header";
+@use "./blocks/searching";
+@use "./blocks/reset";
+@use "./blocks/body";
+@use "./blocks/bodymidle";
+@use "./blocks/videoswiper";
+
+.wallpaper {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+
+    .wall-container {
+        display: flex;
+        position: relative;
+        align-items: center;
+        align-content: center;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 60px;
+        box-sizing: border-box;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 100%;
+        gap: 20px;
+        background: #F3F2F2;
+
+
+    }
+}

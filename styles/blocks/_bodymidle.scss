@@ -1,0 +1,310 @@
+.body-center {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+    width: calc(100% - 650px);
+
+    max-width: 550px;
+
+
+    .sharing-box {
+        border-radius: 14px;
+        background: #FFF;
+        display: flex;
+        padding: 10px 14px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 14px;
+        align-self: stretch;
+
+        .account {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            width: 100%;
+
+            .avatar {
+                display: flex;
+                width: 32px;
+                height: 32px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 24px;
+                background: #F3F2F2;
+
+            }
+
+            .placeholder {
+                color: #52524F;
+                font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                width: 100%;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 145%;
+                /* 20.3px */
+                letter-spacing: -0.14px;
+            }
+        }
+
+        .icon-edit {
+            display: flex;
+            width: 32px;
+            height: 32px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 24px;
+            background: #F3F2F2;
+        }
+    }
+
+    .img-center-header {
+        height: 250px;
+        align-self: stretch;
+        aspect-ratio: 11/5;
+        border-radius: 14px;
+
+    }
+
+    .card-big {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        border-radius: 14px;
+        background: #FFF;
+        box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.05);
+
+        .header-card-big {
+            display: flex;
+            padding: 10px 14px;
+            align-items: center;
+            gap: 14px;
+            align-self: stretch;
+
+            .account-header {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .avatar-header {
+                    width: 40px;
+                    height: 40px;
+                    aspect-ratio: 1/1;
+                }
+
+                .name-header {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 3px;
+
+                    .name {
+                        display: flex;
+                        align-items: center;
+                        gap: 3px;
+
+                        .text-name {
+                            color: #121212;
+                            font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: var(--line-height-15, 15px);
+
+                        }
+
+
+                        .icon {
+                            display: flex;
+                            width: 12px;
+                            height: 12px;
+
+                        }
+
+                    }
+
+                    .time {
+                        color: #52524F;
+                        font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: var(--line-height-15, 15px);
+
+                    }
+                }
+            }
+        }
+
+        .img-card-big {
+            height: 341.733px;
+            align-self: stretch;
+            aspect-ratio: 550.00/341.73;
+        }
+
+        .content-card-big {
+            display: flex;
+            padding: 14px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 14px;
+            align-self: stretch;
+
+            .title {
+                color: #121212;
+                font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 145%;
+                /* 26.1px */
+                letter-spacing: -0.18px;
+            }
+
+            .description {
+                color: var(--www-nytimes-com-fuscous-gray, var(--color-grey-32, #52524F));
+                font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                font-size: var(--font-size-14, 14px);
+                font-style: normal;
+                font-weight: 400;
+                line-height: 145%;
+                /* 20.3px */
+                letter-spacing: -0.14px;
+            }
+
+            .footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                align-self: stretch;
+
+                .category {
+                    color: #B72424;
+                    font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: var(--line-height-15, 15px);
+                    ;
+                    /* 107.143% */
+                }
+
+                .right {
+                    display: flex;
+                    align-items: center;
+                    gap: 14px;
+
+                    .comment {
+                        display: flex;
+                        align-items: center;
+                        gap: 7px;
+
+                        .text {
+                            color: #52524F;
+                            font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                            font-size: var(--line-height-12, 12px);
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: var(--line-height-15, 15px);
+                            /* 125% */
+                        }
+                    }
+
+                    .share {
+                        display: flex;
+                        align-items: center;
+                        gap: 7px;
+
+                        .text {
+                            color: #52524F;
+                            font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                            font-size: var(--line-height-12, 12px);
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: var(--line-height-15, 15px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .video {
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+        border-radius: 14px;
+        border-bottom: 1px solid #E5E7EB;
+        background: #121212;
+
+        .header-video {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+
+            .icon-video {
+                width: 24px;
+                height: 24px;
+                flex-shrink: 0;
+            }
+
+            .title-video {
+                color: #fff;
+                font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 145%;
+                /* 26.1px */
+                letter-spacing: -0.18px;
+            }
+        }
+
+        .body-video {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            width: 100%;
+        }
+    }
+}
+
+.img-advertisement {
+    padding-top: 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    display: flex;
+    border-bottom: var(--stroke-weight-1, 1px) solid var(--color-grey-94, #F0F0EE);
+    background: var(--color-grey-96, #F7F7F4);
+
+    img {
+        height: 550px;
+        align-self: stretch;
+        aspect-ratio: 1/1;
+    }
+}
+
+.title-advertisement {
+    color: var(--www-nytimes-com-mine-shaft, var(--color-grey-20, #323232));
+    text-align: center;
+    font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+    font-size: 10.141px;
+    font-style: normal;
+    font-weight: var(--font-weight-500, 500);
+    line-height: var(--line-height-11, 11px);
+    letter-spacing: var(--letter-spacing-0_22, 0.22px);
+    text-transform: uppercase;
+
+}
