@@ -39,6 +39,7 @@ export default function VideoSwiper() {
         <Swiper className="video-swiper"
             spaceBetween={14}
             slidesPerView={"auto"}
+            width={550}
             breakpoints={{
                 640: { slidesPerView: 2.1 },
                 1024: { slidesPerView: 3.1 },

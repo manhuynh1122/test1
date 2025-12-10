@@ -1,4 +1,4 @@
-import "../../styles/main.scss";
+import "../../styles/match.scss";
 import TagSwiper from "@/components/TagSwiper";
 import VideoSwiper from "@/components/VideoSwiper";
 
@@ -461,7 +461,7 @@ export default function MatchPage() {
                             <div className="body-video">
                                 <VideoSwiper />
                             </div>
-                            <div className="bt-readmore btn-vid">Xem thêm</div>
+                            <a className="bt-readmore btn-vid">Xem thêm</a>
                         </div>
                         <div className="hotnews-box">
                             <div className="card-title no-border">
