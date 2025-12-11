@@ -1,0 +1,446 @@
+[00:00:01.296] Server  LOG     
+[00:00:01.296] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.297] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.297] Server  LOG        	- include was updated to add 'dist/types/**/*.ts'
+[00:00:01.298] Server  LOG        	- include was updated to add 'dist/dev/types/**/*.ts'
+[00:00:01.298] Server  LOG     
+[00:00:01.557] Server  LOG      ✓ Ready in 1102ms
+[00:00:07.158] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.313] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:02.260] Server  LOG      ✓ Compiled in 599ms
+[00:03:30.511] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:31.860] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:31.861] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:33.304] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:33.305] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:33.363] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.502] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.588] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.668] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.752] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.837] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.948] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:34.064] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:34.131] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:34.208] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:34.301] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:34.382] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:34.463] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.528] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:34.580] Server  ERROR    ⨯ ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:34.976] Browser ERROR   uncaughtError: Error: ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:35.860] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:35.860] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:41.326] Browser ERROR   ./webthethao/app/page.tsx:1:1
+Module not found: Can't resolve '../../styles/match.scss'
+> 1 | import "../../styles/match.scss";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TagSwiper from "@/components/TagSwiper";
+  3 | import VideoSwiper from "@/components/VideoSwiper";
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:07.950] Server  LOG      ✓ Compiled in 2.9s
+[00:05:08.723] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:05:09.156] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:05:09.158] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+[00:05:09.482] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:05:09.482] Server  ERROR   Invalid DOM property `stroke-miterlimit`. Did you mean `strokeMiterlimit`?
+[00:05:10.679] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:11.867] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:05:11.867] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:05:11.867] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:05:11.867] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-miterlimit strokeMiterlimit

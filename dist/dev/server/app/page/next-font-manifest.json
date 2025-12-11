@@ -1,0 +1,12 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/webthethao/app/page": [
+      "static/media/InterDisplay_Regular-s.p.dc01d6f0.ttf",
+      "static/media/InterDisplay_Medium-s.p.e0842523.ttf",
+      "static/media/InterDisplay_Bold-s.p.ffda2da0.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

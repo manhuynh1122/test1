@@ -1,0 +1,992 @@
+/* [project]/webthethao/styles/match.scss.css [app-client] (css) */
+.header-container {
+  box-sizing: border-box;
+  z-index: 100;
+  background: #b72424;
+  flex-direction: column;
+  flex: 1 0 0;
+  place-content: center space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  width: 100%;
+  height: 60px;
+  padding: 0 24px;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+.header-container .navbar-header {
+  flex: 1 0 0;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  width: 100%;
+  display: inline-flex;
+}
+
+.header-container .navbar-header .header-left {
+  aspect-ratio: 153 / 40.52;
+  width: 153px;
+  height: 40.519px;
+}
+
+.header-container .navbar-header .header-center {
+  align-items: center;
+  display: flex;
+  right: 338px;
+}
+
+.header-container .navbar-header .header-center .link {
+  align-items: flex-start;
+  padding-right: 24px;
+  display: flex;
+}
+
+.header-container .navbar-header .header-center .link .pound {
+  color: #ffffff80;
+  font-family: var(--font-family-Font-1, "Inter Display");
+  font-size: 11.438px;
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  line-height: var(--line-height-12, 12px);
+  letter-spacing: var(--letter-spacing-0_12, .12px);
+}
+
+.header-container .navbar-header .header-center .link .title {
+  color: #fff;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 11.438px;
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  line-height: var(--line-height-12, 12px);
+  letter-spacing: var(--letter-spacing-0_12, .12px);
+}
+
+.header-container .navbar-header .header-right {
+  align-items: center;
+  display: flex;
+}
+
+.header-container .navbar-header .header-right .button-shop {
+  background: #fff;
+  border-radius: 24px;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  display: flex;
+}
+
+.header-container .navbar-header .header-right .button-shop .logo-shop {
+  aspect-ratio: 1;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  display: flex;
+}
+
+.header-container .navbar-header .header-right .button-shop .title-shop {
+  color: #b5191d;
+  text-align: center;
+  font-family: var(--font-interdisplay);
+  letter-spacing: -.12px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.header-container .navbar-header .header-right .login-header {
+  border-radius: 24px;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  display: flex;
+}
+
+.header-container .navbar-header .header-right .login-header .logo-login {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.header-container .navbar-header .header-right .login-header .title-login {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-interdisplay);
+  letter-spacing: -.14px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.searching-container {
+  box-sizing: border-box;
+  background: #121212;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 100%;
+  height: 40px;
+  padding: 0 24px;
+  display: flex;
+}
+
+.searching-container .navbar-searching {
+  flex: 1 0 0;
+  align-items: center;
+  gap: 14px;
+  width: 100vw;
+  display: flex;
+}
+
+.searching-container .navbar-searching .icon-card {
+  width: 16px;
+  height: 16px;
+}
+
+.searching-container .navbar-searching .card-searching {
+  color: var(--www-nytimes-com-white, var(--color-white-solid, #fff));
+  text-align: center;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  border: 1px solid #fff6;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 10px;
+  line-height: 20px;
+  display: flex;
+}
+
+.searching-container .searching-box {
+  background: #ffffff26;
+  border-radius: 24px;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px 6px 10px;
+  display: flex;
+}
+
+.searching-container .searching-box .icon-searching {
+  stroke-width: 1px;
+  stroke: #fff;
+}
+
+.searching-container .searching-box .title-box {
+  color: #fff;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.searching-slide {
+  width: auto !important;
+}
+
+.searching-swiper {
+  flex: 1;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+input {
+  box-shadow: none;
+  text-shadow: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="password"], textarea, select {
+  appearance: none;
+  -moz-appearance: textfield;
+  outline: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+  display: block;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-body {
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.container-body .body-left {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 19px;
+  width: 301px;
+  display: flex;
+}
+
+.container-body .body-left .history-sport {
+  background: #fff;
+  border-radius: 14px;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.container-body .body-left .history-sport .body-history {
+  align-items: flex-start;
+  gap: var(--item-spacing-s, 16px);
+  background: #fff;
+  border-radius: 0 0 14px 14px;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 14px;
+  display: flex;
+}
+
+.container-body .body-left .history-sport .body-history .card-history {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 10px;
+  display: flex;
+}
+
+.container-body .body-left .history-sport .body-history .card-history .icon-card {
+  width: 24px;
+  height: 23.796px;
+}
+
+.container-body .body-left .history-sport .body-history .card-history .title-history {
+  color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  letter-spacing: -.14px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.container-body .body-left .img-left-first {
+  aspect-ratio: 1 / 2;
+  width: 300px;
+  height: 600px;
+}
+
+.container-body .body-right {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 18px;
+  width: 350px;
+  display: flex;
+}
+
+.container-body .body-right .img-first-right {
+  aspect-ratio: 1 / 2;
+  width: 350px;
+  height: 700px;
+}
+
+.header-news {
+  background: #0056ff;
+  border-radius: 14px 14px 0 0;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  display: flex;
+}
+
+.header-news .icon-header-news {
+  flex-shrink: 0;
+  width: 30.721px;
+  height: 30.46px;
+}
+
+.header-news .title-header-news {
+  fill: #ffffffe0;
+  flex-shrink: 0;
+  width: 119.199px;
+  height: 13.673px;
+}
+
+.icon-comment, .icon-share {
+  aspect-ratio: 1;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  display: flex;
+}
+
+.author-name {
+  color: #666;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--line-height-15, 15px);
+}
+
+.author-time {
+  color: #52524f;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--line-height-15, 15px);
+}
+
+.line {
+  background: #f0f0ee;
+  align-self: stretch;
+  height: 1px;
+}
+
+.bt-readmore {
+  color: #121212;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--line-height-15, 15px);
+  background: #f6f6f6;
+  border-radius: 10px;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  display: flex;
+}
+
+.clame-2 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+.hotnews-box {
+  background: #fff;
+  border-radius: 14px;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.hotnews-box .body-hotnews {
+  align-items: flex-start;
+  gap: var(--item-spacing-s, 16px);
+  background: #fff;
+  border-radius: 0 0 14px 14px;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 14px;
+  display: flex;
+}
+
+.hotnews-box .body-hotnews .card-hotnews {
+  box-sizing: border-box;
+  align-self: stretch;
+  align-items: baseline;
+  gap: 10px;
+  display: flex;
+}
+
+.hotnews-box .body-hotnews .card-hotnews .icon-card-hotnews {
+  width: 4px;
+  height: 4px;
+  fill: var(--color-black-solid, #000);
+  opacity: var(--opacity-100, 1);
+}
+
+.hotnews-box .body-hotnews .card-hotnews .title-hotnews {
+  color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  line-height: 145%;
+}
+
+.cl-black {
+  color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+}
+
+.no-border {
+  border-bottom: none !important;
+}
+
+.card-title {
+  background: #fff;
+  border-bottom: 1px solid #f0f0ee;
+  border-radius: 14px 14px 0 0;
+  flex: 1 0 0;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  display: flex;
+  position: relative;
+}
+
+.card-title .rectangle-header {
+  background: #b72424;
+  border-radius: 0 6px 6px 0;
+  width: 4px;
+  height: 24px;
+  position: absolute;
+  top: 11px;
+  left: 0;
+}
+
+.card-title .title-header {
+  color: #b72424;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  letter-spacing: -.27px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.arrow {
+  flex-shrink: 0;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+}
+
+.body-card-small {
+  align-items: flex-start;
+  gap: var(--item-spacing-s, 16px);
+  background: #fff;
+  border-radius: 0 0 14px 14px;
+  flex-direction: column;
+  width: 100%;
+  padding: 14px;
+  display: flex;
+}
+
+.card-small {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 10px;
+  display: flex;
+}
+
+.topic-card-small {
+  color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  letter-spacing: -.14px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.title-card-small {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.author-card-small {
+  align-items: center;
+  gap: 7px;
+  width: 158px;
+  display: flex;
+}
+
+.icon-card-small {
+  align-items: center;
+  gap: 14px;
+  display: flex;
+}
+
+.img-card-small {
+  aspect-ratio: 1;
+  width: 80px;
+  height: 80px;
+}
+
+.card-container {
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.content-card-small {
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.body-center {
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 14px;
+  width: calc(100% - 650px);
+  max-width: 550px;
+  display: flex;
+}
+
+.body-center .sharing-box {
+  background: #fff;
+  border-radius: 14px;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 14px;
+  display: flex;
+}
+
+.body-center .sharing-box .account {
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  display: flex;
+}
+
+.body-center .sharing-box .account .avatar {
+  background: #f3f2f2;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+}
+
+.body-center .sharing-box .account .placeholder {
+  color: #52524f;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  letter-spacing: -.14px;
+  width: 100%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+}
+
+.body-center .sharing-box .icon-edit {
+  background: #f3f2f2;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+}
+
+.body-center .img-center-header {
+  aspect-ratio: 11 / 5;
+  border-radius: 14px;
+  align-self: stretch;
+  height: 250px;
+}
+
+.body-center .card-big {
+  background: #fff;
+  border-radius: 14px;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+  box-shadow: 0 1px 18px #0000000d;
+}
+
+.body-center .card-big .header-card-big {
+  align-self: stretch;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 14px;
+  display: flex;
+}
+
+.body-center .card-big .header-card-big .account-header {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.body-center .card-big .header-card-big .account-header .avatar-header {
+  aspect-ratio: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.body-center .card-big .header-card-big .account-header .name-header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3px;
+  display: flex;
+}
+
+.body-center .card-big .header-card-big .account-header .name-header .name {
+  align-items: center;
+  gap: 3px;
+  display: flex;
+}
+
+.body-center .card-big .header-card-big .account-header .name-header .name .text-name {
+  color: #121212;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--line-height-15, 15px);
+}
+
+.body-center .card-big .header-card-big .account-header .name-header .name .icon {
+  width: 12px;
+  height: 12px;
+  display: flex;
+}
+
+.body-center .card-big .header-card-big .account-header .name-header .time {
+  color: #52524f;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--line-height-15, 15px);
+}
+
+.body-center .card-big .img-card-big {
+  aspect-ratio: 550 / 341.73;
+  align-self: stretch;
+  height: 341.733px;
+}
+
+.body-center .card-big .content-card-big {
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px;
+  display: flex;
+}
+
+.body-center .card-big .content-card-big .title {
+  color: #121212;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  letter-spacing: -.18px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.body-center .card-big .content-card-big .description {
+  color: var(--www-nytimes-com-fuscous-gray, var(--color-grey-32, #52524f));
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: var(--font-size-14, 14px);
+  letter-spacing: -.14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+.body-center .card-big .content-card-big .footer {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  display: flex;
+}
+
+.body-center .card-big .content-card-big .footer .category {
+  color: #b72424;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--line-height-15, 15px);
+}
+
+.body-center .card-big .content-card-big .footer .right {
+  align-items: center;
+  gap: 14px;
+  display: flex;
+}
+
+.body-center .card-big .content-card-big .footer .right .comment {
+  align-items: center;
+  gap: 7px;
+  display: flex;
+}
+
+.body-center .card-big .content-card-big .footer .right .comment .text {
+  color: #52524f;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: var(--line-height-12, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--line-height-15, 15px);
+}
+
+.body-center .card-big .content-card-big .footer .right .share {
+  align-items: center;
+  gap: 7px;
+  display: flex;
+}
+
+.body-center .card-big .content-card-big .footer .right .share .text {
+  color: #52524f;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: var(--line-height-12, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--line-height-15, 15px);
+}
+
+.body-center .video {
+  background: #121212;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 14px;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+  gap: 24px;
+  padding: 16px;
+  display: flex;
+}
+
+.body-center .video .header-video {
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.body-center .video .header-video .icon-video {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.body-center .video .header-video .title-video {
+  color: #fff;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  letter-spacing: -.18px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.body-center .video .body-video {
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  display: flex;
+}
+
+.img-advertisement {
+  border-bottom: var(--stroke-weight-1, 1px) solid var(--color-grey-94, #f0f0ee);
+  background: var(--color-grey-96, #f7f7f4);
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+  display: flex;
+}
+
+.img-advertisement img {
+  aspect-ratio: 1;
+  align-self: stretch;
+  height: 550px;
+}
+
+.title-advertisement {
+  color: var(--www-nytimes-com-mine-shaft, var(--color-grey-20, #323232));
+  text-align: center;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  font-size: 10.141px;
+  font-style: normal;
+  font-weight: var(--font-weight-500, 500);
+  line-height: var(--line-height-11, 11px);
+  letter-spacing: var(--letter-spacing-0_22, .22px);
+  text-transform: uppercase;
+}
+
+.video-slide {
+  align-items: flex-start;
+  gap: var(--item-spacing-s, 16px);
+  background-color: #121212;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.video-card__thumb {
+  max-width: 184px;
+  height: 223px;
+  position: relative;
+}
+
+.video-card__image {
+  object-fit: cover;
+  width: 100%;
+  height: 223px;
+  display: block;
+}
+
+.video-card__play {
+  aspect-ratio: 1;
+  cursor: pointer;
+  border-radius: 60px;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+.video-card__title {
+  color: #fff;
+  font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  width: 100%;
+  max-width: 187px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135%;
+}
+
+.video .body-video .swiper {
+  backface-visibility: hidden;
+  perspective: 1000px;
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+
+.video .body-video .swiper-slide {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.btn-vid {
+  color: #fff;
+  background: #fff3;
+}
+
+.wallpaper {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.wallpaper .wall-container {
+  box-sizing: border-box;
+  background: #f3f2f2;
+  flex-flow: column wrap;
+  flex-shrink: 0;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding-top: 60px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=webthethao_styles_match_scss_css_bad6b30c._.single.css.map*/

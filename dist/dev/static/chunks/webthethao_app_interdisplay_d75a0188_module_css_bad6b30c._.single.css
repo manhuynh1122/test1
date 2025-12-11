@@ -1,0 +1,43 @@
+/* [project]/webthethao/app/interdisplay_d75a0188.module.css [app-client] (css) */
+@font-face {
+  font-family: interDisplay;
+  src: url("../media/InterDisplay_Regular-s.p.dc01d6f0.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: interDisplay;
+  src: url("../media/InterDisplay_Medium-s.p.e0842523.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: interDisplay;
+  src: url("../media/InterDisplay_Bold-s.p.ffda2da0.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: interDisplay Fallback;
+  src: local(Arial);
+  ascent-override: 98.56%;
+  descent-override: 24.54%;
+  line-gap-override: 0.0%;
+  size-adjust: 98.29%;
+}
+
+.interdisplay_d75a0188-module__CjttSq__className {
+  font-family: interDisplay, interDisplay Fallback;
+}
+
+.interdisplay_d75a0188-module__CjttSq__variable {
+  --font-interdisplay: "interDisplay", "interDisplay Fallback";
+}
+
+/*# sourceMappingURL=webthethao_app_interdisplay_d75a0188_module_css_bad6b30c._.single.css.map*/
