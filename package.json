@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "export": "next export",
+    "postinstall": "npm rebuild @tailwindcss/oxide lightningcss || true"
   },
   "dependencies": {
     "next": "16.0.7",
