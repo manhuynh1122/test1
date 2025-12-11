@@ -77,7 +77,12 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/webthethao/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/webthethao/node_modules/swiper/swiper-react.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$swiper$2f$modules$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/webthethao/node_modules/swiper/modules/index.mjs [app-ssr] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$swiper$2f$modules$2f$free$2d$mode$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FreeMode$3e$__ = __turbopack_context__.i("[project]/webthethao/node_modules/swiper/modules/free-mode.mjs [app-ssr] (ecmascript) <export default as FreeMode>");
 "use client";
+;
+;
+;
 ;
 ;
 const videos = [
@@ -107,14 +112,13 @@ function VideoSwiper() {
         className: "video-swiper",
         spaceBetween: 14,
         slidesPerView: "auto",
-        breakpoints: {
-            640: {
-                slidesPerView: 2.1
-            },
-            1024: {
-                slidesPerView: 3.1
-            }
-        },
+        modules: [
+            __TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$swiper$2f$modules$2f$free$2d$mode$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FreeMode$3e$__["FreeMode"]
+        ],
+        freeMode: true,
+        slidesOffsetAfter: 40,
+        observer: true,
+        observeParents: true,
         children: videos.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                 className: "video-slide",
                 children: [
@@ -127,7 +131,7 @@ function VideoSwiper() {
                                 className: "video-card__image"
                             }, void 0, false, {
                                 fileName: "[project]/webthethao/components/VideoSwiper.tsx",
-                                lineNumber: 52,
+                                lineNumber: 55,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -148,23 +152,23 @@ function VideoSwiper() {
                                         "stroke-linejoin": "round"
                                     }, void 0, false, {
                                         fileName: "[project]/webthethao/components/VideoSwiper.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 63,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/webthethao/components/VideoSwiper.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 62,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/webthethao/components/VideoSwiper.tsx",
-                                lineNumber: 58,
+                                lineNumber: 61,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/webthethao/components/VideoSwiper.tsx",
-                        lineNumber: 51,
+                        lineNumber: 54,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$webthethao$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -172,18 +176,18 @@ function VideoSwiper() {
                         children: item.title
                     }, void 0, false, {
                         fileName: "[project]/webthethao/components/VideoSwiper.tsx",
-                        lineNumber: 65,
+                        lineNumber: 68,
                         columnNumber: 21
                     }, this)
                 ]
             }, item.id, true, {
                 fileName: "[project]/webthethao/components/VideoSwiper.tsx",
-                lineNumber: 49,
+                lineNumber: 52,
                 columnNumber: 17
             }, this))
     }, void 0, false, {
         fileName: "[project]/webthethao/components/VideoSwiper.tsx",
-        lineNumber: 39,
+        lineNumber: 42,
         columnNumber: 9
     }, this);
 }

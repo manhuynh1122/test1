@@ -57,6 +57,10 @@
                         line-height: 145%;
                         /* 20.3px */
                         letter-spacing: -0.14px;
+
+                        &.text-blue {
+                            color: #0056FF;
+                        }
                     }
                 }
             }
@@ -224,7 +228,8 @@
 
         .card-hotnews {
             display: flex;
-            align-items: baseline;
+            align-items: flex-start;
+            /* Align to top to control vertical position via margin */
             gap: 10px;
             align-self: stretch;
             box-sizing: border-box;
@@ -234,6 +239,8 @@
                 height: 4px;
                 fill: var(--color-black-solid, #000);
                 opacity: var(--opacity-100, 1);
+                margin-top: 8px;
+                /* Centers 4px icon within typical 20px line-height */
             }
 
             .title-hotnews {

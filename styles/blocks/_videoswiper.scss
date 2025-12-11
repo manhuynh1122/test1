@@ -2,17 +2,17 @@
 
 
     align-items: flex-start;
-    gap: var(--item-spacing-s, 16px);
+    gap: var(--item-spacing-s, 14px);
     background-color: #121212;
     flex-direction: column;
-    width: 100%;
+    width: 184px;
     display: flex;
 
 
 }
 
 .video-card__thumb {
-    max-width: 184px;
+    width: 184px;
     height: 223px;
     position: relative;
 }
@@ -49,7 +49,7 @@
     line-height: 135%;
     width: 100%;
     line-height: 135%;
-    max-width: 187px;
+    width: 184px;
     /* 16.2px */
 }
 
@@ -66,6 +66,10 @@
     list-style: none;
     padding: 0;
     z-index: 0;
+    width: 100%;
+    /* Add explicit width */
+    min-width: 0;
+    flex: 1;
 }
 
 
@@ -76,6 +80,13 @@
     flex-direction: column;
     align-items: flex-start;
     display: flex;
+    width: 184px !important;
+    /* Force width */
+    flex-shrink: 0;
+    /* Prevent shrinking */
+    gap: var(--item-spacing-s, 14px);
+    background-color: #121212;
+
 
 }
 

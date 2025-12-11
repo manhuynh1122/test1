@@ -270,9 +270,7 @@
         }
 
         .body-video {
-            display: flex;
-            align-items: flex-start;
-            gap: 14px;
+            display: block;
             width: 100%;
         }
     }

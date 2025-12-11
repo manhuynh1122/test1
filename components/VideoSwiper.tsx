@@ -3,6 +3,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Image from "next/image";
+import { FreeMode } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/free-mode";
 
 type VideoItem = {
     id: number;
@@ -39,11 +42,11 @@ export default function VideoSwiper() {
         <Swiper className="video-swiper"
             spaceBetween={14}
             slidesPerView={"auto"}
-
-            breakpoints={{
-                640: { slidesPerView: 2.1 },
-                1024: { slidesPerView: 3.1 },
-            }}
+            modules={[FreeMode]}
+            freeMode={true}
+            slidesOffsetAfter={40}
+            observer={true}
+            observeParents={true}
         >
             {videos.map((item) => (
                 <SwiperSlide key={item.id} className="video-slide">

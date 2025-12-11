@@ -24,3 +24,26 @@
 [00:18:56.519] Server  LOG      ✓ Compiled in 235ms
 [00:20:37.538] Server  LOG      ✓ Compiled in 204ms
 [00:21:46.677] Server  LOG      ✓ Compiled in 620ms
+[00:35:44.192] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:35:45.623] Server  LOG      ✓ Compiled in 368ms
+[00:38:49.168] Server  LOG      ✓ Compiled in 359ms
+[00:40:46.108] Server  LOG      ✓ Compiled in 207ms
+[00:40:48.145] Server  LOG      ✓ Compiled in 260ms
+[00:41:13.839] Server  LOG      ✓ Compiled in 186ms
+[00:43:52.039] Server  LOG      ✓ Compiled in 439ms
+[00:46:42.895] Server  LOG      ✓ Compiled in 489ms
+[00:48:47.932] Server  LOG      ✓ Compiled in 99ms
+[01:00:43.560] Server  LOG      ✓ Compiled in 156ms
+[01:04:55.714] Server  LOG      ✓ Compiled in 322ms
+[01:07:46.325] Server  LOG      ✓ Compiled in 421ms
+[01:15:22.055] Server  LOG      ✓ Compiled in 183ms
+[01:17:48.468] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[01:17:49.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:50.038] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[01:17:50.038] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[01:17:50.038] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:17:50.038] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-miterlimit strokeMiterlimit
+[01:18:16.187] Server  LOG      ✓ Compiled in 160ms
+[01:22:20.707] Server  LOG      ✓ Compiled in 194ms
+[01:23:29.275] Server  LOG      ✓ Compiled in 150ms
+[01:27:12.937] Server  LOG      ✓ Compiled in 309ms

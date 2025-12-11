@@ -314,7 +314,7 @@ export default function Home() {
                                             alt={league.title}
                                             className="icon-card"
                                         />
-                                        <span className="title-history">{league.name}</span>
+                                        <span className={`title-history ${league.id === 1 ? "text-blue" : ""}`}>{league.name}</span>
                                     </a>
                                 ))}
                             </div>
