@@ -247,7 +247,7 @@ export default function Home() {
                             <div className="pound">#</div>
                             <div className="title">Video thể thao</div>
                         </a>
-                        <a className="link">
+                        <a className="link pad-5">
 
                             <div className="title">Khác</div>
                         </a>
