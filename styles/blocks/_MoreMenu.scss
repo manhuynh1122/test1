@@ -39,7 +39,7 @@
     padding: 20px;
     display: none;
     height: auto;
-    /* Changed from 600px to auto to fit content */
+
     padding-bottom: 30px;
     /* Add some breathing room at bottom */
 
@@ -96,7 +96,7 @@
             line-height: 1.4;
 
             &:hover {
-                color: #ff6600;
+                color: #333;
                 text-decoration: none;
             }
         }
