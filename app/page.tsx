@@ -1,6 +1,7 @@
 import "@/styles/match.scss";
 import TagSwiper from "@/components/TagSwiper";
 import VideoSwiper from "@/components/VideoSwiper";
+import MoreMenu from "@/components/MoreMenu";
 
 interface LeagueItem {
     id: number;
@@ -250,10 +251,10 @@ export default function Home() {
 
                             <div className="title">Khác</div>
                         </a>
-                        <a className="link">
+                        <div className="link">
 
-                            <div className="title">• • •</div>
-                        </a>
+                            <MoreMenu />
+                        </div>
                     </div>
                     <div className="header-right">
                         <a className="button-shop">

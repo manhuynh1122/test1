@@ -1,10 +1,5 @@
 {
   "app": {
-    "[project]/webthethao/app/_not-found/page": [
-      "static/media/InterDisplay_Regular-s.p.dc01d6f0.ttf",
-      "static/media/InterDisplay_Medium-s.p.e0842523.ttf",
-      "static/media/InterDisplay_Bold-s.p.ffda2da0.ttf"
-    ],
     "[project]/webthethao/app/page": [
       "static/media/InterDisplay_Regular-s.p.dc01d6f0.ttf",
       "static/media/InterDisplay_Medium-s.p.e0842523.ttf",
