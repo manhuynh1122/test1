@@ -18,6 +18,7 @@
   font-weight: var(--font-weight-400, 400);
   line-height: var(--line-height-40, 40px);
   letter-spacing: var(--letter-spacing-0_25, .25px);
+  padding: 10px;
 }
 
 .dropdown {
@@ -71,7 +72,7 @@
 }
 
 .dropdown .col a:hover {
-  color: #f60;
+  color: #333;
   text-decoration: none;
 }
 

@@ -33,13 +33,13 @@
 
 .header-container .navbar-header .header-center {
   align-items: center;
+  gap: 1.6vw;
   display: flex;
   right: 338px;
 }
 
 .header-container .navbar-header .header-center .link {
-  align-items: flex-start;
-  padding-right: 24px;
+  align-items: center;
   display: flex;
 }
 
@@ -603,12 +603,16 @@ a {
   display: flex;
 }
 
+.pad-5 {
+  padding-right: 5px;
+}
+
 .body-center {
   flex-direction: column;
   align-self: stretch;
   align-items: flex-start;
   gap: 14px;
-  width: calc(100% - 650px);
+  width: calc(100% - 675px);
   max-width: 550px;
   display: flex;
 }
@@ -742,7 +746,6 @@ a {
 .body-center .card-big .img-card-big {
   aspect-ratio: 550 / 341.73;
   align-self: stretch;
-  height: 341.733px;
 }
 
 .body-center .card-big .content-card-big {
@@ -987,6 +990,7 @@ a {
   font-weight: var(--font-weight-400, 400);
   line-height: var(--line-height-40, 40px);
   letter-spacing: var(--letter-spacing-0_25, .25px);
+  padding: 10px;
 }
 
 .dropdown {
@@ -1040,7 +1044,7 @@ a {
 }
 
 .dropdown .col a:hover {
-  color: #f60;
+  color: #333;
   text-decoration: none;
 }
 

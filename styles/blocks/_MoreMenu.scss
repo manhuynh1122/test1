@@ -21,6 +21,7 @@
     line-height: var(--line-height-40, 40px);
     /* 500% */
     letter-spacing: var(--letter-spacing-0_25, 0.25px);
+    padding: 10px;
 }
 
 .dropdown {
@@ -29,11 +30,10 @@
     top: 60px;
 
     left: 0;
-    /* Removed center alignment to span full width */
-    /* transform: translateX(-50%); */
+
     width: 100%;
     max-width: none;
-    /* Full screen width */
+
 
     background: #ffffff;
     padding: 20px;
@@ -41,23 +41,23 @@
     height: auto;
 
     padding-bottom: 30px;
-    /* Add some breathing room at bottom */
+
 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
 
-    /* Grid layout matching image (6 columns) */
+
     display: none;
-    /* Default hidden */
+
     grid-template-columns: repeat(6, 1fr);
     gap: 20px 20px;
-    /* Reduced row gap from 40px to 20px */
+
     z-index: 999;
 
-    /* Override display: flex from previous hover rule with grid */
+
     &.active,
     &:hover {
-        /* Assuming purely CSS hover for now */
+
         display: grid;
     }
 

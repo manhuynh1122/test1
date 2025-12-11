@@ -34,13 +34,13 @@
         .header-center {
             display: flex;
             align-items: center;
-
+            gap: 1.6vw;
             right: 338px;
 
             .link {
                 display: flex;
-                padding-right: 24px;
-                align-items: flex-start;
+
+                align-items: center;
 
                 .pound {
                     color: rgba(255, 255, 255, 0.50);
