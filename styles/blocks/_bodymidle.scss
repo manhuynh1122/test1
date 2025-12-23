@@ -4,7 +4,7 @@
     align-items: flex-start;
     gap: 14px;
     align-self: stretch;
-    width: calc(100% - 675px);
+    width: calc(100% - 710px);
     max-width: 550px;
 
 
@@ -33,6 +33,7 @@
                 gap: 10px;
                 border-radius: 24px;
                 background: #F3F2F2;
+                aspect-ratio: 1/1;
 
             }
 
@@ -58,13 +59,12 @@
             gap: 10px;
             border-radius: 24px;
             background: #F3F2F2;
+            aspect-ratio: 1/1;
         }
     }
 
     .img-center-header {
-        height: 250px;
-        align-self: stretch;
-        aspect-ratio: 11/5;
+
         border-radius: 14px;
 
     }
@@ -72,8 +72,6 @@
     .card-big {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        align-self: stretch;
         border-radius: 14px;
         background: #FFF;
         box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.05);
@@ -83,7 +81,6 @@
             padding: 10px 14px;
             align-items: center;
             gap: 14px;
-            align-self: stretch;
 
             .account-header {
                 display: flex;
@@ -93,14 +90,13 @@
                 .avatar-header {
                     width: 40px;
                     height: 40px;
-                    aspect-ratio: 1/1;
+
                 }
 
                 .name-header {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    align-items: flex-start;
                     gap: 3px;
 
                     .name {
@@ -144,7 +140,7 @@
         .img-card-big {
 
             align-self: stretch;
-            aspect-ratio: 550.00/341.73;
+            aspect-ratio: 550/342;
         }
 
         .content-card-big {
@@ -160,7 +156,7 @@
                 font-family: var(--font-interdisplay), InterDisplay, sans-serif;
                 font-size: 18px;
                 font-style: normal;
-                font-weight: 600;
+                font-weight: 700;
                 line-height: 145%;
                 /* 26.1px */
                 letter-spacing: -0.18px;
@@ -286,11 +282,7 @@
     border-bottom: var(--stroke-weight-1, 1px) solid var(--color-grey-94, #F0F0EE);
     background: var(--color-grey-96, #F7F7F4);
 
-    img {
-        height: 550px;
-        align-self: stretch;
-        aspect-ratio: 1/1;
-    }
+
 }
 
 .title-advertisement {
@@ -304,4 +296,18 @@
     letter-spacing: var(--letter-spacing-0_22, 0.22px);
     text-transform: uppercase;
 
+}
+
+@media (max-width: 1025px) {
+    .body-center {
+        width: calc(100% - 375px); // 350px (right) + 20px (gap) + 5px (safe buffer)
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .body-center {
+        width: 100%;
+        max-width: 564px; // Or 100% if we want full fluid
+    }
 }

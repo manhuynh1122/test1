@@ -3,7 +3,7 @@
     max-width: 1440px;
     padding-left: 16px;
     padding-right: 16px;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
     display: flex;
 
@@ -14,67 +14,68 @@
         align-items: flex-start;
         gap: 19px;
         flex-shrink: 0;
+    }
 
-        .history-sport {
+    .history-sport {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        width: 100%;
+        border-radius: 14px;
+
+        background: #FFF;
+
+
+
+        .body-history {
             display: flex;
+            padding: 14px;
             flex-direction: column;
             align-items: flex-start;
+            gap: var(--item-spacing-s, 16px);
             align-self: stretch;
-            width: 100%;
-            border-radius: 14px;
-
+            border-radius: 0 0 14px 14px;
             background: #FFF;
 
-
-
-            .body-history {
+            .card-history {
                 display: flex;
-                padding: 14px;
-                flex-direction: column;
                 align-items: flex-start;
-                gap: var(--item-spacing-s, 16px);
+                gap: 10px;
                 align-self: stretch;
-                border-radius: 0 0 14px 14px;
-                background: #FFF;
 
-                .card-history {
-                    display: flex;
-                    align-items: flex-start;
-                    gap: 10px;
-                    align-self: stretch;
+                .icon-card {
+                    width: 24px;
+                    height: 23.796px;
+                }
 
-                    .icon-card {
-                        width: 24px;
-                        height: 23.796px;
-                    }
+                .title-history {
+                    color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
+                    font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 145%;
+                    /* 20.3px */
+                    letter-spacing: -0.14px;
 
-                    .title-history {
-                        color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
-                        font-family: var(--font-interdisplay), InterDisplay, sans-serif;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 600;
-                        line-height: 145%;
-                        /* 20.3px */
-                        letter-spacing: -0.14px;
-
-                        &.text-blue {
-                            color: #0056FF;
-                        }
+                    &.text-blue {
+                        color: #0056FF;
                     }
                 }
             }
-
         }
-
-        .img-left-first {
-            width: 300px;
-            height: 600px;
-            aspect-ratio: 1/2;
-        }
-
 
     }
+
+    .img-left-first {
+        width: 100%;
+        height: auto;
+
+    }
+
+
+
 
 
 
@@ -91,9 +92,9 @@
 
 
         .img-first-right {
-            width: 350px;
-            height: 700px;
-            aspect-ratio: 1/2;
+            width: 100%;
+            height: auto;
+
         }
 
 
@@ -280,6 +281,7 @@
     display: flex;
     position: relative;
     justify-content: space-between;
+    width: 100%;
 
     .rectangle-header {
         width: 4px;
@@ -349,7 +351,7 @@
 .author-card-small {
     align-items: center;
     gap: 7px;
-    width: 158px;
+
     display: flex;
 }
 
@@ -383,4 +385,30 @@
 
 .pad-5 {
     padding-right: 5px;
+}
+
+@media (max-width: 1025px) {
+    .container-body .body-left {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-body .body-right {
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-body .body-right .body-left {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-body .body-right .body-left {
+        display: flex;
+        width: 100%;
+    }
 }

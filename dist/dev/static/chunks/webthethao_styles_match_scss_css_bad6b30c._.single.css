@@ -26,7 +26,6 @@
 }
 
 .header-container .navbar-header .header-left {
-  aspect-ratio: 153 / 40.52;
   width: 153px;
   height: 40.519px;
 }
@@ -122,6 +121,41 @@
   line-height: 120%;
 }
 
+@media (max-width: 1025px) {
+  .header-container .navbar-header .header-left {
+    width: 140px;
+    height: 37px;
+  }
+
+  .title-login, .header-container .navbar-header .header-center .link:first-child {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .header-container .navbar-header .header-center .link:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-container .navbar-header .header-center .link:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 840px) {
+  .header-container .navbar-header .header-center .link:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .header-container .navbar-header .header-center .link:nth-child(5) {
+    display: none;
+  }
+}
+
 .searching-container {
   box-sizing: border-box;
   background: #121212;
@@ -139,7 +173,6 @@
   flex: 1 0 0;
   align-items: center;
   gap: 14px;
-  width: 100vw;
   display: flex;
 }
 
@@ -170,8 +203,15 @@
   border-radius: 24px;
   align-items: center;
   gap: 10px;
+  min-width: 250px;
   padding: 6px 14px 6px 10px;
   display: flex;
+}
+
+@media (max-width: 1025px) {
+  .searching-container .searching-box {
+    min-width: 150px;
+  }
 }
 
 .searching-container .searching-box .icon-searching {
@@ -182,6 +222,9 @@
 .searching-container .searching-box .title-box {
   color: #fff;
   font-family: var(--font-interdisplay), InterDisplay, sans-serif;
+  background: none;
+  border: none;
+  width: 100%;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -236,7 +279,7 @@ input[type="text"], input[type="number"], input[type="email"], input[type="passw
   outline: none;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, a {
   display: block;
 }
 
@@ -278,9 +321,15 @@ a {
   text-decoration: none;
 }
 
+img {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
 .container-body {
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
   width: 100%;
   max-width: 1440px;
   padding-left: 16px;
@@ -297,7 +346,7 @@ a {
   display: flex;
 }
 
-.container-body .body-left .history-sport {
+.container-body .history-sport {
   background: #fff;
   border-radius: 14px;
   flex-direction: column;
@@ -307,7 +356,7 @@ a {
   display: flex;
 }
 
-.container-body .body-left .history-sport .body-history {
+.container-body .history-sport .body-history {
   align-items: flex-start;
   gap: var(--item-spacing-s, 16px);
   background: #fff;
@@ -318,19 +367,19 @@ a {
   display: flex;
 }
 
-.container-body .body-left .history-sport .body-history .card-history {
+.container-body .history-sport .body-history .card-history {
   align-self: stretch;
   align-items: flex-start;
   gap: 10px;
   display: flex;
 }
 
-.container-body .body-left .history-sport .body-history .card-history .icon-card {
+.container-body .history-sport .body-history .card-history .icon-card {
   width: 24px;
   height: 23.796px;
 }
 
-.container-body .body-left .history-sport .body-history .card-history .title-history {
+.container-body .history-sport .body-history .card-history .title-history {
   color: var(--www-nytimes-com-cod-gray, var(--color-grey-7, #121212));
   font-family: var(--font-interdisplay), InterDisplay, sans-serif;
   letter-spacing: -.14px;
@@ -340,14 +389,13 @@ a {
   line-height: 145%;
 }
 
-.container-body .body-left .history-sport .body-history .card-history .title-history.text-blue {
+.container-body .history-sport .body-history .card-history .title-history.text-blue {
   color: #0056ff;
 }
 
-.container-body .body-left .img-left-first {
-  aspect-ratio: 1 / 2;
-  width: 300px;
-  height: 600px;
+.container-body .img-left-first {
+  width: 100%;
+  height: auto;
 }
 
 .container-body .body-right {
@@ -360,9 +408,8 @@ a {
 }
 
 .container-body .body-right .img-first-right {
-  aspect-ratio: 1 / 2;
-  width: 350px;
-  height: 700px;
+  width: 100%;
+  height: auto;
 }
 
 .header-news {
@@ -506,6 +553,7 @@ a {
   align-self: stretch;
   align-items: center;
   gap: 10px;
+  width: 100%;
   padding: 10px 14px;
   display: flex;
   position: relative;
@@ -576,7 +624,6 @@ a {
 .author-card-small {
   align-items: center;
   gap: 7px;
-  width: 158px;
   display: flex;
 }
 
@@ -612,12 +659,37 @@ a {
   padding-right: 5px;
 }
 
+@media (max-width: 1025px) {
+  .container-body .body-left {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-body .body-right {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-body .body-right .body-left {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-body .body-right .body-left {
+    width: 100%;
+    display: flex;
+  }
+}
+
 .body-center {
   flex-direction: column;
   align-self: stretch;
   align-items: flex-start;
   gap: 14px;
-  width: calc(100% - 675px);
+  width: calc(100% - 710px);
   max-width: 550px;
   display: flex;
 }
@@ -641,6 +713,7 @@ a {
 }
 
 .body-center .sharing-box .account .avatar {
+  aspect-ratio: 1;
   background: #f3f2f2;
   border-radius: 24px;
   justify-content: center;
@@ -663,6 +736,7 @@ a {
 }
 
 .body-center .sharing-box .icon-edit {
+  aspect-ratio: 1;
   background: #f3f2f2;
   border-radius: 24px;
   justify-content: center;
@@ -674,24 +748,18 @@ a {
 }
 
 .body-center .img-center-header {
-  aspect-ratio: 11 / 5;
   border-radius: 14px;
-  align-self: stretch;
-  height: 250px;
 }
 
 .body-center .card-big {
   background: #fff;
   border-radius: 14px;
   flex-direction: column;
-  align-self: stretch;
-  align-items: flex-start;
   display: flex;
   box-shadow: 0 1px 18px #0000000d;
 }
 
 .body-center .card-big .header-card-big {
-  align-self: stretch;
   align-items: center;
   gap: 14px;
   padding: 10px 14px;
@@ -705,7 +773,6 @@ a {
 }
 
 .body-center .card-big .header-card-big .account-header .avatar-header {
-  aspect-ratio: 1;
   width: 40px;
   height: 40px;
 }
@@ -713,7 +780,6 @@ a {
 .body-center .card-big .header-card-big .account-header .name-header {
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   gap: 3px;
   display: flex;
 }
@@ -749,7 +815,7 @@ a {
 }
 
 .body-center .card-big .img-card-big {
-  aspect-ratio: 550 / 341.73;
+  aspect-ratio: 550 / 342;
   align-self: stretch;
 }
 
@@ -768,7 +834,7 @@ a {
   letter-spacing: -.18px;
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 145%;
 }
 
@@ -885,12 +951,6 @@ a {
   display: flex;
 }
 
-.img-advertisement img {
-  aspect-ratio: 1;
-  align-self: stretch;
-  height: 550px;
-}
-
 .title-advertisement {
   color: var(--www-nytimes-com-mine-shaft, var(--color-grey-20, #323232));
   text-align: center;
@@ -901,6 +961,20 @@ a {
   line-height: var(--line-height-11, 11px);
   letter-spacing: var(--letter-spacing-0_22, .22px);
   text-transform: uppercase;
+}
+
+@media (max-width: 1025px) {
+  .body-center {
+    width: calc(100% - 375px);
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .body-center {
+    width: 100%;
+    max-width: 564px;
+  }
 }
 
 .video-slide {
@@ -921,7 +995,7 @@ a {
 .video-card__image {
   object-fit: cover;
   width: 100%;
-  height: 223px;
+  height: auto;
   display: block;
 }
 
@@ -949,24 +1023,7 @@ a {
   line-height: 135%;
 }
 
-.video .body-video .swiper {
-  backface-visibility: hidden;
-  perspective: 1000px;
-  z-index: 0;
-  flex: 1;
-  width: 100%;
-  min-width: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  overflow: hidden;
-  transform: translateZ(0);
-}
-
 .video .body-video .swiper-slide {
-  align-items: flex-start;
   gap: var(--item-spacing-s, 14px);
   background-color: #121212;
   flex-direction: column;
